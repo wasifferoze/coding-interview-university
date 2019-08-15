@@ -75,9 +75,8 @@ This is my plan prepare for coding interview (customise from jwasham original pl
 </details>
 
 ---------------- 
-Everything below this point is optional 
+## Everything below this point is optional 
 ----------------
-
 
 <details>
 <summary>Additional Resources</summary>
@@ -164,13 +163,19 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 </details>
 
 ## Don't feel you aren't smart enough
+<details>
+<summary>Motivation</summary>
+
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 - [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
+</details>
 
 ## Pick One Language for the Interview
+<details>
+<summary>Pick One</summary>
 
 You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
 
@@ -181,12 +186,17 @@ You can use a language you are comfortable in to do the coding part of the inter
 [See language resources here](programming-language-resources.md)
 
 You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+</details>
 
-## Book List
+## Books
+<details>
+<summary>List</summary>
 
 This is a shorter list than what I used. This is abbreviated to save you time.
 
 ### Interview Prep
+<details>
+<summary>books</summary>
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - answers in C++ and Java
@@ -195,8 +205,11 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-### Computer Architecture
+</details>
 
+### Computer Architecture
+<details>
+<summary>books</summary>
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
@@ -217,8 +230,11 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
       </details>
 
+</details>
 
 ### Language Specific
+<details>
+<summary>choose language</summary>
 
 **You need to choose a language for the interview (see above).**
 
@@ -228,6 +244,7 @@ If you read through one of these, you should have all the data structures and al
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
+
 
 ### Python
 
@@ -241,9 +258,12 @@ If you read through one of these, you should have all the data structures and al
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 </details>
-
+</details>
+</details>
 
 ## Before you Get Started
+<details>
+<summary>Advice</summary>
 
 This list grew over many months, and yes, it kind of got out of hand.
 
@@ -291,16 +311,11 @@ Take a break from programming problems for a half hour and go through your flash
 ### 4. Focus
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
+</details>
 
 ## The Daily Plan
+<details>
+<summary>schedule</summary>
 
 Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
 
@@ -329,6 +344,7 @@ You can see my code here:
 You don't need to memorize the guts of every algorithm.
 
 Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+</details>
 
 ## Prerequisite Knowledge
 
@@ -1280,17 +1296,21 @@ Mock Interviews:
 </details>
 
 ## Once you're closer to the interview
+<details>
 
 - [ ] Cracking The Coding Interview Set 2 (videos):
     - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
+</details>
 
 ## Your Resume
+<details>
 
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
-
+</details>
 
 ## Be thinking of for when the interview comes
+<details>
 
 Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
 Have a story, not just data, about something you accomplished.
@@ -1307,8 +1327,10 @@ Have a story, not just data, about something you accomplished.
 - What was the hardest bug you faced at [job x / project y]?
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
+</details>
 
 ## Have questions for the interviewer
+<details>
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1321,14 +1343,17 @@ Have a story, not just data, about something you accomplished.
 - What are you working on?
 - What do you like about it?
 - What is the work life like?
+</details>
 
 ## Once You've Got The Job
+<details>
 
 Congratulations!
 
 Keep learning.
 
 You're never really done.
+</details>
 
 ---
 
@@ -1877,9 +1902,11 @@ Sit back and enjoy. "Netflix and skill" :P
 </details>
 
 ## Computer Science Courses
+<details>
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+</details>
 
 ## Papers
 
@@ -1919,5 +1946,7 @@ Sit back and enjoy. "Netflix and skill" :P
 </details>
 
 ## LICENSE
+<details>
 
 [CC-BY-SA-4.0](./LICENSE.txt)
+</details>
