@@ -38,6 +38,15 @@ class DynamicArray:
             return IndexError(k + ' is out of bound!')
         return self.A[k]  # Retrieve from array at index k
 
+    def __getall__(self, k):
+        """
+        Return element at index k
+        """
+        if not 0 <= k < self.n:
+            # check it k index is in bound of array
+            return IndexError(k + ' is out of bound!')
+        return self.A[k]  # Retrieve from array at index k
+
     def append(self, element):
         """
         Add element to end of the array
@@ -56,7 +65,12 @@ class DynamicArray:
         """
         if self.n == self.capacity:
             self._resize(2 * self.capacity)  # double the size
-        
+        for i in range(self.n-1, index, -1):
+            # shift all element to right from given index
+            self.A[i+1] = self.A[i]
+        # insert element at given index
+        self.A[index] = element
+        self.n += 1
 
     def _resize(self, new_capacity):
         """
@@ -67,3 +81,12 @@ class DynamicArray:
             b[k] = self.A[k]
         self.A = b
         self.capacity = new_capacity  # reset capacity
+
+    def is_empty(self):
+        """
+        check array is empty
+        :return: true or false
+        """
+        if self.n != 0:
+            return False
+        return True
