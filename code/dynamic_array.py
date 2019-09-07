@@ -42,10 +42,9 @@ class DynamicArray:
         """
         Return element at index k
         """
-        if not 0 <= k < self.n:
-            # check it k index is in bound of array
-            return IndexError(k + ' is out of bound!')
-        return self.A[k]  # Retrieve from array at index k
+        if not self.is_empty():
+            # TODO: implement how to get all elements of array
+            return self.A[k]  # Retrieve from array at index k
 
     def append(self, element):
         """
@@ -71,6 +70,21 @@ class DynamicArray:
         # insert element at given index
         self.A[index] = element
         self.n += 1
+
+    def prepend(self, element):
+        """
+        insert item at beginning of array
+        :param element: item to insert
+        """
+        if self.is_empty():
+            return IndexError('Array is empty!')
+        self.insert(0, element)
+
+    def pop(self):
+        """
+        Remove last item in array
+        """
+        # TODO: implement pop
 
     def _resize(self, new_capacity):
         """
