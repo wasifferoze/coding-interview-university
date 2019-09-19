@@ -84,7 +84,13 @@ class DynamicArray:
         """
         Remove last item in array
         """
-        # TODO: implement pop
+        if self.is_empty():
+            return IndexError("Array is empty")
+        else:
+            self.A[self.n-1]    # slicing last element
+            self.n -= 1         # decreasing size count
+            if self.n <= 2 * self.capacity:
+                self._resize(self.capacity/2)       # reducing capacity of array
 
     def _resize(self, new_capacity):
         """

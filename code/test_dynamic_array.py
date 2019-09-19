@@ -43,3 +43,4 @@ print("size: {}".format(len(arr)))
 # insert at given index
 arr.insert(3, 9)
 print(arr.is_empty())
+#TODO: write test case
